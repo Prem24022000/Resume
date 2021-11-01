@@ -86,3 +86,18 @@ a {
   text-decoration: none;
   color: black;
 }
+
+@media (max-width: 426px) {
+  .header-content {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .show-case {
+    display: block;
+  }
+
+  .header-content h1 {
+    font-size: 2rem;
+  }
+}
