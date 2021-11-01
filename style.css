@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: system-ui, system-ui, sans-serif;
+  line-height: 1.8;
+}
+
+.header-content {
+  background-image: url("https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1039&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  gap: 20px;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.header-content img {
+  width: 200px;
+}
+
+/* showCase */
+
+.show-case {
+  display: flex;
+}
+
+.show-case .show-case-1 {
+  background-color: #e6e6e6;
+  padding: 30px 50px;
+  width: 100%;
+  position: relative;
+}
+
+.show-case .show-case-2 {
+  background-color: rgb(200, 200, 201);
+  padding: 30px 50px;
+  width: 100%;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.profile p {
+  max-width: 400px;
+}
+
+.head-left,
+.head-right {
+  letter-spacing: 4px;
+}
+
+.case {
+  margin-top: 30px;
+}
+
+.case h2 {
+  letter-spacing: 4px;
+}
+
+.head {
+  height: 4px;
+  width: 100px;
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
